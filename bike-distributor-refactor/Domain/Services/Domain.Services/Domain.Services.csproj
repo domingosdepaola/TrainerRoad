@@ -46,12 +46,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Factory\Factory.cs" />
+    <Compile Include="OrderService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\infrastructure\Common\Infra.Common\Infra.Common.csproj">
+      <Project>{6cf31e58-df1f-4f23-84a9-6b833698e21b}</Project>
+      <Name>Infra.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\..\infrastructure\Data\Infra.Data\Infra.Data.csproj">
       <Project>{79a85270-56ef-436e-828e-fab76c271131}</Project>
       <Name>Infra.Data</Name>
