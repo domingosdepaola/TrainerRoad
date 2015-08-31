@@ -189,7 +189,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Application\BikeApplication\Application.csproj">
       <Project>{1cf14d01-6e6d-4e0c-b97b-212a5693e095}</Project>
-      <Name>Application</Name>
+      <Name>Application %28Application\Application%29</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\Domain\Entity\Domain.Entity\Domain.Entity.csproj">
       <Project>{4783afc4-078d-4428-a499-94491d802738}</Project>
