@@ -11,30 +11,22 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="Line">
-      <EntityTypeMapping TypeName="TravelRoadModel.Line">
-        <MappingFragment StoreEntitySet="Line">
-          <ScalarProperty Name="Id" ColumnName="Id" />
-          <ScalarProperty Name="IdBike" ColumnName="IdBike" />
-          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
     <EntitySetMapping Name="Order">
       <EntityTypeMapping TypeName="TravelRoadModel.Order">
         <MappingFragment StoreEntitySet="Order">
+          <ScalarProperty Name="TaxRate" ColumnName="TaxRate" />
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Company" ColumnName="Company" />
-          <ScalarProperty Name="TaxRate" ColumnName="TaxRate" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="OrderLine">
-      <EntityTypeMapping TypeName="TravelRoadModel.OrderLine">
-        <MappingFragment StoreEntitySet="OrderLine">
-          <ScalarProperty Name="Id" ColumnName="Id" />
-          <ScalarProperty Name="IdLine" ColumnName="IdLine" />
+    <EntitySetMapping Name="Line">
+      <EntityTypeMapping TypeName="TravelRoadModel.Line">
+        <MappingFragment StoreEntitySet="Line">
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
           <ScalarProperty Name="IdOrder" ColumnName="IdOrder" />
+          <ScalarProperty Name="IdBike" ColumnName="IdBike" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

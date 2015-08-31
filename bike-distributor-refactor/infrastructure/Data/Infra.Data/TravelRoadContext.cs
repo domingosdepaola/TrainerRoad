@@ -26,7 +26,6 @@ namespace Infra.Data
         public virtual DbSet<Bike> Bike { get; set; }
         public virtual DbSet<Line> Line { get; set; }
         public virtual DbSet<Order> Order { get; set; }
-        public virtual DbSet<OrderLine> OrderLine { get; set; }
     }
 }
 

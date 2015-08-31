@@ -51,7 +51,6 @@
   <ItemGroup>
     <Compile Include="BikeRepository.cs" />
     <Compile Include="LineRepository.cs" />
-    <Compile Include="OrderLineRepository.cs" />
     <Compile Include="OrderRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository.cs" />

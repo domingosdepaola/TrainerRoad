@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeDistributor", "BikeDistributor\BikeDistributor.csproj", "{4FBA25B5-279C-4FD3-A904-FF88BEF4A480}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeDistributor.Test", "BikeDistributor.Test\BikeDistributor.Test.csproj", "{543D14A7-DC7A-4E49-9761-CA6B311DB0CC}"
@@ -28,6 +26,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\BikeApplication\Application.csproj", "{1CF14D01-6E6D-4E0C-B97B-212A5693E095}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra.Common", "infrastructure\Common\Infra.Common\Infra.Common.csproj", "{6CF31E58-DF1F-4F23-84A9-6B833698E21B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeDistributorWCF", "Presentation\BikeDistributorWCF\BikeDistributorWCF\BikeDistributorWCF.csproj", "{84999238-18A8-458C-8253-17FD4B895E31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +71,10 @@ Global
 		{6CF31E58-DF1F-4F23-84A9-6B833698E21B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CF31E58-DF1F-4F23-84A9-6B833698E21B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CF31E58-DF1F-4F23-84A9-6B833698E21B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84999238-18A8-458C-8253-17FD4B895E31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84999238-18A8-458C-8253-17FD4B895E31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84999238-18A8-458C-8253-17FD4B895E31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84999238-18A8-458C-8253-17FD4B895E31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,6 +86,7 @@ Global
 		{79A85270-56EF-436E-828E-FAB76C271131} = {84F212AC-1DC5-4654-A07C-A5C550555F1E}
 		{6CF31E58-DF1F-4F23-84A9-6B833698E21B} = {84F212AC-1DC5-4654-A07C-A5C550555F1E}
 		{7C6A8EC5-69AB-4830-BA0D-A43A74B5C08E} = {ECE4D9B4-5CC0-49CD-8B86-5E9CCCAEEA1A}
+		{84999238-18A8-458C-8253-17FD4B895E31} = {ECE4D9B4-5CC0-49CD-8B86-5E9CCCAEEA1A}
 		{1CF14D01-6E6D-4E0C-B97B-212A5693E095} = {1798A03A-2CEF-42BF-88B1-B1DFE9830E0C}
 	EndGlobalSection
 EndGlobal

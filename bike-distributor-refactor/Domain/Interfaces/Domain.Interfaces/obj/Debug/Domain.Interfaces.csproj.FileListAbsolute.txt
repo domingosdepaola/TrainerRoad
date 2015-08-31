@@ -7,3 +7,14 @@ D:\Projetos\TrainerRoad\bike-distributor-refactor\Domain\Interfaces\Domain.Inter
 D:\Projetos\TrainerRoad\bike-distributor-refactor\Domain\Interfaces\Domain.Interfaces\obj\Debug\Domain.Interfaces.csprojResolveAssemblyReference.cache
 D:\Projetos\TrainerRoad\bike-distributor-refactor\Domain\Interfaces\Domain.Interfaces\obj\Debug\Domain.Interfaces.dll
 D:\Projetos\TrainerRoad\bike-distributor-refactor\Domain\Interfaces\Domain.Interfaces\obj\Debug\Domain.Interfaces.pdb
+C:\projetos\git\TrainerRoad\bike-distributor-refactor\Domain\Interfaces\Domain.Interfaces\bin\Debug\Domain.Interfaces.dll
+C:\projetos\git\TrainerRoad\bike-distributor-refactor\Domain\Interfaces\Domain.Interfaces\bin\Debug\Domain.Interfaces.pdb
+C:\projetos\git\TrainerRoad\bike-distributor-refactor\Domain\Interfaces\Domain.Interfaces\bin\Debug\Domain.Entity.dll
+C:\projetos\git\TrainerRoad\bike-distributor-refactor\Domain\Interfaces\Domain.Interfaces\bin\Debug\EntityFramework.dll
+C:\projetos\git\TrainerRoad\bike-distributor-refactor\Domain\Interfaces\Domain.Interfaces\bin\Debug\Infra.Common.dll
+C:\projetos\git\TrainerRoad\bike-distributor-refactor\Domain\Interfaces\Domain.Interfaces\bin\Debug\Domain.Entity.pdb
+C:\projetos\git\TrainerRoad\bike-distributor-refactor\Domain\Interfaces\Domain.Interfaces\bin\Debug\EntityFramework.xml
+C:\projetos\git\TrainerRoad\bike-distributor-refactor\Domain\Interfaces\Domain.Interfaces\bin\Debug\Infra.Common.pdb
+C:\projetos\git\TrainerRoad\bike-distributor-refactor\Domain\Interfaces\Domain.Interfaces\obj\Debug\Domain.Interfaces.csprojResolveAssemblyReference.cache
+C:\projetos\git\TrainerRoad\bike-distributor-refactor\Domain\Interfaces\Domain.Interfaces\obj\Debug\Domain.Interfaces.dll
+C:\projetos\git\TrainerRoad\bike-distributor-refactor\Domain\Interfaces\Domain.Interfaces\obj\Debug\Domain.Interfaces.pdb

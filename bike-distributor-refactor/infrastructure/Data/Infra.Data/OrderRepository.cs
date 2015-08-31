@@ -25,5 +25,15 @@ namespace Infra.Data
         {
             throw new NotImplementedException();
         }
+
+        public int InsertWithIdReturn(Order order)
+        {
+            using (TravelRoadContext context = new TravelRoadContext()) 
+            {
+                context.Order.Add(order);
+                context.SaveChanges();
+                return order.Id;
+            }
+        }
     }
 }

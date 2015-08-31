@@ -47,7 +47,6 @@ namespace Domain.Services.Factory
             container.Kernel.Resolver.AddSubResolver(new ArrayResolver(container.Kernel));
             container.Register(Component.For<IBikeRepository>().ImplementedBy<BikeRepository>());
             container.Register(Component.For<IRepository<Line,int>>().ImplementedBy<LineRepository>());
-            container.Register(Component.For<IRepository<OrderLine, int>>().ImplementedBy<OrderLineRepository>());
             container.Register(Component.For<IOrderRepository>().ImplementedBy<OrderRepository>());
             container.Register(Component.For<IOrderService>().ImplementedBy<OrderService>());
 

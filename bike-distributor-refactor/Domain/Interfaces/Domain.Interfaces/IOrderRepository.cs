@@ -9,5 +9,6 @@ namespace Domain.Interfaces
 {
     public interface IOrderRepository : IRepository<Order,int>
     {
+        int InsertWithIdReturn(Order order);
     }
 }

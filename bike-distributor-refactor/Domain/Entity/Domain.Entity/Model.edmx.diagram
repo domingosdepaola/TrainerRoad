@@ -4,15 +4,13 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="3d81451cf85645948738ac054f087977" Name="Diagram1">
-        <EntityTypeShape EntityType="TravelRoadModel.Bike" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="TravelRoadModel.Line" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="TravelRoadModel.Order" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
-        <EntityTypeShape EntityType="TravelRoadModel.OrderLine" Width="1.5" PointX="5.25" PointY="0.875" IsExpanded="true" />
-        <AssociationConnector Association="TravelRoadModel.FK_Line_Bike" ManuallyRouted="false" />
-        <AssociationConnector Association="TravelRoadModel.FK_OrderLine_Line" ManuallyRouted="false" />
-        <AssociationConnector Association="TravelRoadModel.FK_OrderLine_Order" ManuallyRouted="false" />
-      </Diagram>
+      <Diagram DiagramId="79ce139d024249dc9429aea343567b0e" Name="Diagrama1">
+        <EntityTypeShape EntityType="TravelRoadModel.Bike" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="TravelRoadModel.Order" Width="1.5" PointX="0.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TravelRoadModel.Line" Width="1.5" PointX="4.125" PointY="2.875" />
+        <AssociationConnector Association="TravelRoadModel.FK_Line_Bike" />
+        <AssociationConnector Association="TravelRoadModel.FK_Line_Order" />
+        </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
 </edmx:Edmx>

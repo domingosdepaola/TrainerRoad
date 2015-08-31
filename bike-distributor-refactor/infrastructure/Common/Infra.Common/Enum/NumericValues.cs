@@ -8,6 +8,7 @@ namespace Infra.Common.Enum
 {
     public enum NumericValues
     {
+        NoDiscount = 0,
         OneThousand = 1000,
         TwoThousand = 2000,
         FiveThousand = 5000

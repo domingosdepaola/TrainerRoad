@@ -13,13 +13,11 @@ namespace Application
     {
         public IBikeRepository bikeRepository;
         public IRepository<Line, int> lineRepository;
-        public IRepository<OrderLine, int> orderLineRepository;
         public IOrderService orderService;
         public BikeApplication() 
         {
             bikeRepository = Factory.Instance.Resolve<IBikeRepository>();
             lineRepository = Factory.Instance.Resolve <IRepository<Line, int>>();
-            orderLineRepository = Factory.Instance.Resolve<IRepository<OrderLine, int>>();
             orderService = Factory.Instance.Resolve<IOrderService>();
         }
     }
