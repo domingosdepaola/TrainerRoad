@@ -1,0 +1,10 @@
+D:\Projetos\TrainerRoad\bike-distributor-refactor\Domain\Entity\Domain.Entity\bin\Debug\Domain.Entity.dll.config
+D:\Projetos\TrainerRoad\bike-distributor-refactor\Domain\Entity\Domain.Entity\bin\Debug\Domain.Entity.dll
+D:\Projetos\TrainerRoad\bike-distributor-refactor\Domain\Entity\Domain.Entity\bin\Debug\Domain.Entity.pdb
+D:\Projetos\TrainerRoad\bike-distributor-refactor\Domain\Entity\Domain.Entity\bin\Debug\EntityFramework.dll
+D:\Projetos\TrainerRoad\bike-distributor-refactor\Domain\Entity\Domain.Entity\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projetos\TrainerRoad\bike-distributor-refactor\Domain\Entity\Domain.Entity\bin\Debug\EntityFramework.xml
+D:\Projetos\TrainerRoad\bike-distributor-refactor\Domain\Entity\Domain.Entity\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projetos\TrainerRoad\bike-distributor-refactor\Domain\Entity\Domain.Entity\obj\Debug\Domain.Entity.csprojResolveAssemblyReference.cache
+D:\Projetos\TrainerRoad\bike-distributor-refactor\Domain\Entity\Domain.Entity\obj\Debug\Domain.Entity.dll
+D:\Projetos\TrainerRoad\bike-distributor-refactor\Domain\Entity\Domain.Entity\obj\Debug\Domain.Entity.pdb

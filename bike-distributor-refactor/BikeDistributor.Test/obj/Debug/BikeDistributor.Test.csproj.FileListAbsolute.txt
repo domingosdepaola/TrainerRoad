@@ -1,0 +1,7 @@
+D:\Projetos\TrainerRoad\bike-distributor-refactor\BikeDistributor.Test\bin\Debug\BikeDistributor.Test.dll
+D:\Projetos\TrainerRoad\bike-distributor-refactor\BikeDistributor.Test\bin\Debug\BikeDistributor.Test.pdb
+D:\Projetos\TrainerRoad\bike-distributor-refactor\BikeDistributor.Test\bin\Debug\BikeDistributor.dll
+D:\Projetos\TrainerRoad\bike-distributor-refactor\BikeDistributor.Test\bin\Debug\BikeDistributor.pdb
+D:\Projetos\TrainerRoad\bike-distributor-refactor\BikeDistributor.Test\obj\Debug\BikeDistributor.Test.csprojResolveAssemblyReference.cache
+D:\Projetos\TrainerRoad\bike-distributor-refactor\BikeDistributor.Test\obj\Debug\BikeDistributor.Test.dll
+D:\Projetos\TrainerRoad\bike-distributor-refactor\BikeDistributor.Test\obj\Debug\BikeDistributor.Test.pdb

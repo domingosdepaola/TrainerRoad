@@ -1,0 +1,9 @@
+D:\Projetos\TrainerRoad\bike-distributor-refactor\Domain\Interfaces\Domain.Interfaces\bin\Debug\Domain.Interfaces.dll
+D:\Projetos\TrainerRoad\bike-distributor-refactor\Domain\Interfaces\Domain.Interfaces\bin\Debug\Domain.Interfaces.pdb
+D:\Projetos\TrainerRoad\bike-distributor-refactor\Domain\Interfaces\Domain.Interfaces\bin\Debug\Domain.Entity.dll
+D:\Projetos\TrainerRoad\bike-distributor-refactor\Domain\Interfaces\Domain.Interfaces\bin\Debug\EntityFramework.dll
+D:\Projetos\TrainerRoad\bike-distributor-refactor\Domain\Interfaces\Domain.Interfaces\bin\Debug\Domain.Entity.pdb
+D:\Projetos\TrainerRoad\bike-distributor-refactor\Domain\Interfaces\Domain.Interfaces\bin\Debug\EntityFramework.xml
+D:\Projetos\TrainerRoad\bike-distributor-refactor\Domain\Interfaces\Domain.Interfaces\obj\Debug\Domain.Interfaces.csprojResolveAssemblyReference.cache
+D:\Projetos\TrainerRoad\bike-distributor-refactor\Domain\Interfaces\Domain.Interfaces\obj\Debug\Domain.Interfaces.dll
+D:\Projetos\TrainerRoad\bike-distributor-refactor\Domain\Interfaces\Domain.Interfaces\obj\Debug\Domain.Interfaces.pdb

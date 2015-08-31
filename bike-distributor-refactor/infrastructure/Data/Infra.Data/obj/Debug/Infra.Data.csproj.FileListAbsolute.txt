@@ -1,0 +1,16 @@
+D:\Projetos\TrainerRoad\bike-distributor-refactor\infrastructure\Data\Infra.Data\bin\Debug\Infra.Data.dll.config
+D:\Projetos\TrainerRoad\bike-distributor-refactor\infrastructure\Data\Infra.Data\bin\Debug\Infra.Data.dll
+D:\Projetos\TrainerRoad\bike-distributor-refactor\infrastructure\Data\Infra.Data\bin\Debug\Infra.Data.pdb
+D:\Projetos\TrainerRoad\bike-distributor-refactor\infrastructure\Data\Infra.Data\bin\Debug\Domain.Entity.dll
+D:\Projetos\TrainerRoad\bike-distributor-refactor\infrastructure\Data\Infra.Data\bin\Debug\Domain.Interfaces.dll
+D:\Projetos\TrainerRoad\bike-distributor-refactor\infrastructure\Data\Infra.Data\bin\Debug\EntityFramework.dll
+D:\Projetos\TrainerRoad\bike-distributor-refactor\infrastructure\Data\Infra.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projetos\TrainerRoad\bike-distributor-refactor\infrastructure\Data\Infra.Data\bin\Debug\NLog.dll
+D:\Projetos\TrainerRoad\bike-distributor-refactor\infrastructure\Data\Infra.Data\bin\Debug\Domain.Entity.pdb
+D:\Projetos\TrainerRoad\bike-distributor-refactor\infrastructure\Data\Infra.Data\bin\Debug\Domain.Interfaces.pdb
+D:\Projetos\TrainerRoad\bike-distributor-refactor\infrastructure\Data\Infra.Data\bin\Debug\EntityFramework.xml
+D:\Projetos\TrainerRoad\bike-distributor-refactor\infrastructure\Data\Infra.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projetos\TrainerRoad\bike-distributor-refactor\infrastructure\Data\Infra.Data\bin\Debug\NLog.xml
+D:\Projetos\TrainerRoad\bike-distributor-refactor\infrastructure\Data\Infra.Data\obj\Debug\Infra.Data.csprojResolveAssemblyReference.cache
+D:\Projetos\TrainerRoad\bike-distributor-refactor\infrastructure\Data\Infra.Data\obj\Debug\Infra.Data.dll
+D:\Projetos\TrainerRoad\bike-distributor-refactor\infrastructure\Data\Infra.Data\obj\Debug\Infra.Data.pdb
