@@ -1,31 +1,35 @@
-﻿using System;
+﻿using Infra.Common.Enum;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Infra.Common.Enum;
 
 namespace Domain.Entity
 {
     public partial class Bike
     {
-        public NumericValues PriceRage 
+        public NumericValues PriceRange 
         {
             get 
             {
-                if (this.Price >= (int)NumericValues.OneThousand && this.Price < (int)NumericValues.TwoThousand) 
+                if (this.Price == null) 
+                {
+                    return NumericValues.NoDiscount;
+                }
+                if (this.Price.Value >= (int)NumericValues.OneThousand && this.Price.Value < (int)NumericValues.TwoThousand) 
                 {
                     return NumericValues.OneThousand;
                 }
-                else if (this.Price >= (int)NumericValues.TwoThousand && this.Price < (int)NumericValues.FiveThousand) 
+                else if (this.Price.Value >= (int)NumericValues.TwoThousand && this.Price.Value < (int)NumericValues.FiveThousand) 
                 {
                     return NumericValues.TwoThousand;
                 }
-                else if (this.Price >= (int)NumericValues.FiveThousand)
+                else if (this.Price.Value >= (int)NumericValues.FiveThousand)
                 {
                     return NumericValues.FiveThousand;
                 }
-                else 
+                else
                 {
                     return NumericValues.NoDiscount;
                 }

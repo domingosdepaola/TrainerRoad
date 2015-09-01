@@ -5,6 +5,7 @@ using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
 using Application;
+using Domain.Entity;
 
 namespace BikeDistributorWCF
 {
@@ -12,26 +13,28 @@ namespace BikeDistributorWCF
     // NOTE: In order to launch WCF Test Client for testing this service, please select ServiceOrderWCF.svc or ServiceOrderWCF.svc.cs at the Solution Explorer and start debugging.
     public class ServiceOrderWCF : IServiceOrderWCF
     {
-        BikeApplication bikeApplication;
-        public void DoWork()
-        {
-        }
-
+        OrderApplication orderApplication = new OrderApplication();
 
         public int CreateOrder(Domain.Entity.Order order)
         {
-            bikeApplication = new BikeApplication();
-            return bikeApplication.orderService.CreateOrder(order);
+            return orderApplication.orderService.CreateOrder(order);
         }
 
-        public string GetReceipt(int idOrder)
+        public string GetReceipt(int idOrder, bool html)
         {
-            throw new NotImplementedException();
+            if (html)
+            {
+                return orderApplication.orderService.DoHtmlReceipt(idOrder);
+            }
+            else
+            {
+                return orderApplication.orderService.DoReceipt(idOrder);
+            }
         }
 
-        public string GetHtmlReceipt(int idOrder)
+        public string GenerateOrderWithRecept(Order order, bool htmlRecept)
         {
-            throw new NotImplementedException();
+            return orderApplication.orderService.GenerateOrderWithRecept(order, htmlRecept);
         }
     }
 }

@@ -20,3 +20,15 @@ C:\projetos\git\TrainerRoad\bike-distributor-refactor\Domain\Entity\Domain.Entit
 C:\projetos\git\TrainerRoad\bike-distributor-refactor\Domain\Entity\Domain.Entity\bin\Debug\Infra.Common.pdb
 C:\projetos\git\TrainerRoad\bike-distributor-refactor\Domain\Entity\Domain.Entity\bin\Debug\EntityFramework.xml
 C:\projetos\git\TrainerRoad\bike-distributor-refactor\Domain\Entity\Domain.Entity\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projetos\git\TrainerRoad\bike-distributor-refactor\Domain\Entity\Domain.Entity\bin\Debug\Domain.Entity.dll.config
+D:\Projetos\git\TrainerRoad\bike-distributor-refactor\Domain\Entity\Domain.Entity\bin\Debug\Domain.Entity.dll
+D:\Projetos\git\TrainerRoad\bike-distributor-refactor\Domain\Entity\Domain.Entity\bin\Debug\Domain.Entity.pdb
+D:\Projetos\git\TrainerRoad\bike-distributor-refactor\Domain\Entity\Domain.Entity\bin\Debug\EntityFramework.dll
+D:\Projetos\git\TrainerRoad\bike-distributor-refactor\Domain\Entity\Domain.Entity\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projetos\git\TrainerRoad\bike-distributor-refactor\Domain\Entity\Domain.Entity\bin\Debug\Infra.Common.dll
+D:\Projetos\git\TrainerRoad\bike-distributor-refactor\Domain\Entity\Domain.Entity\bin\Debug\Infra.Common.pdb
+D:\Projetos\git\TrainerRoad\bike-distributor-refactor\Domain\Entity\Domain.Entity\bin\Debug\EntityFramework.xml
+D:\Projetos\git\TrainerRoad\bike-distributor-refactor\Domain\Entity\Domain.Entity\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projetos\git\TrainerRoad\bike-distributor-refactor\Domain\Entity\Domain.Entity\obj\Debug\Domain.Entity.csprojResolveAssemblyReference.cache
+D:\Projetos\git\TrainerRoad\bike-distributor-refactor\Domain\Entity\Domain.Entity\obj\Debug\Domain.Entity.dll
+D:\Projetos\git\TrainerRoad\bike-distributor-refactor\Domain\Entity\Domain.Entity\obj\Debug\Domain.Entity.pdb

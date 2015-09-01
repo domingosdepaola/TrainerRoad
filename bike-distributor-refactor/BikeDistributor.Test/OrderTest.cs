@@ -1,20 +1,42 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using BikeDistributor.Test.ServiceReferenceOrder;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Collections.Generic;
 
 namespace BikeDistributor.Test
 {
     [TestClass]
     public class OrderTest
     {
-        private readonly static Bike Defy = new Bike("Giant", "Defy 1", Bike.OneThousand);
-        private readonly static Bike Elite = new Bike("Specialized", "Venge Elite", Bike.TwoThousand);
-        private readonly static Bike DuraAce = new Bike("Specialized", "S-Works Venge Dura-Ace", Bike.FiveThousand);
-
+        private readonly static Bike Defy = new Bike();
+        private readonly static Bike Elite = new Bike();
+        private readonly static Bike DuraAce = new Bike();
+        public OrderTest() 
+        {
+            Defy.Brand = "Giant";
+            Defy.Model = "Defy 1";
+            Defy.Price = (int)Infra.Common.Enum.NumericValues.OneThousand;
+            Elite.Brand = "Specialized";
+            Elite.Model ="Venge Elite";
+            Elite.Price = 2400;
+            DuraAce.Brand = "Specialized";
+            DuraAce.Model = "S-Works Venge Dura-Ace";
+            DuraAce.Price = 5003;
+        }
         [TestMethod]
         public void ReceiptOneDefy()
         {
-            var order = new Order("Anywhere Bike Shop");
-            order.AddLine(new Line(Defy, 1));
-            Assert.AreEqual(ResultStatementOneDefy, order.Receipt());
+            //var order = new Order("Anywhere Bike Shop");
+            //order.AddLine(new Line(Defy, 1));
+            //Assert.AreEqual(ResultStatementOneDefy, order.Receipt());
+            List<ServiceReferenceOrder.Line> lstLines = new List<ServiceReferenceOrder.Line>();
+            Line line = new Line();
+            line.Bike = Defy;
+            line.Quantity = 1;
+            lstLines.Add(line);
+            Order order = new Order();
+            order.Line = lstLines.ToArray();
+            ServiceOrderWCFClient service = new ServiceOrderWCFClient();
+            string receipt = service.GenerateOrderWithRecept(order, false);
         }
 
         private const string ResultStatementOneDefy = @"Order Receipt for Anywhere Bike Shop

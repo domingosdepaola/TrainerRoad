@@ -15,5 +15,9 @@ namespace Domain.Entity
                 return .0725d;
             }
         }
+        public Order(String Company) 
+        {
+            this.Company = Company;
+        }
     }
 }
