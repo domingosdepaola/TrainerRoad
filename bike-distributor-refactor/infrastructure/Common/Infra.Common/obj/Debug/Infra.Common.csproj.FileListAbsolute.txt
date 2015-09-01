@@ -1,0 +1,4 @@
+C:\projetos\git\TrainerRoad\bike-distributor-refactor\infrastructure\Common\Infra.Common\bin\Debug\Infra.Common.dll
+C:\projetos\git\TrainerRoad\bike-distributor-refactor\infrastructure\Common\Infra.Common\bin\Debug\Infra.Common.pdb
+C:\projetos\git\TrainerRoad\bike-distributor-refactor\infrastructure\Common\Infra.Common\obj\Debug\Infra.Common.dll
+C:\projetos\git\TrainerRoad\bike-distributor-refactor\infrastructure\Common\Infra.Common\obj\Debug\Infra.Common.pdb
