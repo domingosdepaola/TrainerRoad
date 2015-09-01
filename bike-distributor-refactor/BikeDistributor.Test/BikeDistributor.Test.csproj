@@ -96,6 +96,18 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Application\BikeApplication\Application.csproj">
+      <Project>{1cf14d01-6e6d-4e0c-b97b-212a5693e095}</Project>
+      <Name>Application %28Application\Application%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Domain\Entity\Domain.Entity\Domain.Entity.csproj">
+      <Project>{4783afc4-078d-4428-a499-94491d802738}</Project>
+      <Name>Domain.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Domain\Interfaces\Domain.Interfaces\Domain.Interfaces.csproj">
+      <Project>{eb57d70d-0c98-44e8-adb3-049dcc70e41b}</Project>
+      <Name>Domain.Interfaces</Name>
+    </ProjectReference>
     <ProjectReference Include="..\infrastructure\Common\Infra.Common\Infra.Common.csproj">
       <Project>{6cf31e58-df1f-4f23-84a9-6b833698e21b}</Project>
       <Name>Infra.Common</Name>

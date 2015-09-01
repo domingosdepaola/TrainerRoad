@@ -9,6 +9,12 @@ namespace Domain.Entity
 {
     public partial class Bike
     {
+        public Bike(string brand, string model, int price)
+        {
+            Brand = brand;
+            Model = model;
+            Price = price;
+        }
         public NumericValues PriceRange 
         {
             get 

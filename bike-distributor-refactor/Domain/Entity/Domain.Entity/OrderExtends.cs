@@ -19,5 +19,13 @@ namespace Domain.Entity
         {
             this.Company = Company;
         }
+        public void AddLine(Line line) 
+        {
+            if (this.Line == null) 
+            {
+                this.Line = new List<Line>();
+            }
+            this.Line.Add(line);
+        }
     }
 }

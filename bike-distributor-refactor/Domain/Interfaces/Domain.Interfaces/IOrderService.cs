@@ -9,8 +9,8 @@ namespace Domain.Interfaces
 {
     public interface IOrderService
     {
-        string DoReceipt(int idOrder);
-        string DoHtmlReceipt(int idOrder);
+        string GetReceipt(int idOrder);
+        string GetHtmlReceipt(int idOrder);
         int CreateOrder(Order order);
         String GenerateOrderWithRecept(Order order,bool htmlRecept);
     }

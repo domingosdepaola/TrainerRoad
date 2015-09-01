@@ -14,7 +14,6 @@ namespace BikeDistributorWCF
     public class ServiceOrderWCF : IServiceOrderWCF
     {
         OrderApplication orderApplication = new OrderApplication();
-
         public int CreateOrder(Domain.Entity.Order order)
         {
             return orderApplication.orderService.CreateOrder(order);
@@ -24,11 +23,11 @@ namespace BikeDistributorWCF
         {
             if (html)
             {
-                return orderApplication.orderService.DoHtmlReceipt(idOrder);
+                return orderApplication.orderService.GetHtmlReceipt(idOrder);
             }
             else
             {
-                return orderApplication.orderService.DoReceipt(idOrder);
+                return orderApplication.orderService.GetReceipt(idOrder);
             }
         }
 

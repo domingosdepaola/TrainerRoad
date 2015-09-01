@@ -34,7 +34,7 @@ namespace Infra.Data
                 return false;
             }
         }
-        public T Get(ID id) 
+        public virtual T Get(ID id) 
         {
             try
             {

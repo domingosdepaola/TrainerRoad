@@ -10,7 +10,13 @@ namespace Infra.Data
 {
     public class OrderRepository : Repository<Order,int>, IOrderRepository
     {
-
+        public override Order Get(int id)
+        {
+            using (TravelRoadContext context = new TravelRoadContext()) 
+            {
+                return context.Order.Include("Line").Include("Line.Bike").Where(x => x.Id == id).FirstOrDefault();
+            }
+        }
         public bool Delete(int id)
         {
             throw new NotImplementedException();
