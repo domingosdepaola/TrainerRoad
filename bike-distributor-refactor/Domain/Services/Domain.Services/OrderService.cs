@@ -30,7 +30,7 @@ namespace Domain.Services
                     var thisAmount = 0d;
                     if (line.Bike.Price != null)
                     {
-                        switch (line.Bike.PriceRage)
+                        switch (line.Bike.PriceRange)
                         {
                             case NumericValues.OneThousand:
                                 if (line.Quantity >= 20)
@@ -78,7 +78,7 @@ namespace Domain.Services
                         var thisAmount = 0d;
                         if (line.Bike.Price != null)
                         {
-                            switch (line.Bike.PriceRage)
+                            switch (line.Bike.PriceRange)
                             {
                                 case NumericValues.OneThousand:
                                     if (line.Quantity >= 20)

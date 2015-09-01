@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="abafe817-86ed-4173-b55c-8d1824fe8edd" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/BikeDistributorWCF/ServiceOrderWCF.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServiceOrderWCF.disco" MetadataType="Disco" ID="c653c11c-58e5-41eb-ae0e-892e0da59ff8" SourceId="1" SourceUrl="http://localhost/BikeDistributorWCF/ServiceOrderWCF.svc?disco" />
+    <MetadataFile FileName="ServiceOrderWCF.xsd" MetadataType="Schema" ID="e6f4796a-bd21-4132-af58-39c3f0a1abf3" SourceId="1" SourceUrl="http://localhost/BikeDistributorWCF/ServiceOrderWCF.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServiceOrderWCF.wsdl" MetadataType="Wsdl" ID="9d69d20c-16bd-40bc-ab64-f377419331d0" SourceId="1" SourceUrl="http://localhost/BikeDistributorWCF/ServiceOrderWCF.svc?wsdl" />
+    <MetadataFile FileName="ServiceOrderWCF1.xsd" MetadataType="Schema" ID="0d4477a7-0ef4-4916-b586-4035c714a065" SourceId="1" SourceUrl="http://localhost/BikeDistributorWCF/ServiceOrderWCF.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServiceOrderWCF2.xsd" MetadataType="Schema" ID="30efff3b-977c-4e91-af09-7f6f8acfb480" SourceId="1" SourceUrl="http://localhost/BikeDistributorWCF/ServiceOrderWCF.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -12,16 +12,14 @@ namespace BikeDistributorWCF
     [ServiceContract]
     public interface IServiceOrderWCF
     {
-        [OperationContract]
-        void DoWork();
-
+      
         [OperationContract]
         int CreateOrder(Order order);
 
         [OperationContract]
-        String GetReceipt(int idOrder);
+        String GetReceipt(int idOrder,bool html);
 
         [OperationContract]
-        String GetHtmlReceipt(int idOrder);
+        String GenerateOrderWithRecept(Order order,bool htmlRecept);
     }
 }
