@@ -38,3 +38,5 @@ C:\projetos\git\TrainerRoad\bike-distributor-refactor\BikeDistributor.Test\bin\D
 C:\projetos\git\TrainerRoad\bike-distributor-refactor\BikeDistributor.Test\bin\Debug\Infra.Data.pdb
 C:\projetos\git\TrainerRoad\bike-distributor-refactor\BikeDistributor.Test\bin\Debug\Castle.Core.xml
 C:\projetos\git\TrainerRoad\bike-distributor-refactor\BikeDistributor.Test\bin\Debug\NLog.xml
+C:\projetos\git\TrainerRoad\bike-distributor-refactor\BikeDistributor.Test\bin\Debug\Newtonsoft.Json.dll
+C:\projetos\git\TrainerRoad\bike-distributor-refactor\BikeDistributor.Test\bin\Debug\Newtonsoft.Json.xml

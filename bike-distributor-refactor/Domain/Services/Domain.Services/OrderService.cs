@@ -21,7 +21,7 @@ namespace Domain.Services
         private String DoReceipt(Order order)
         {
             var totalAmount = 0d;
-            var result = new StringBuilder(string.Format("Order Receipt for {0}{1}", order.Company, Environment.NewLine));
+            var result = new StringBuilder(string.Format("Order Receipt for {0}{1}", order.Company + " ", Environment.NewLine));
             if (order.Line != null && order.Line.Count > 0)
             {
                 foreach (var line in order.Line)
@@ -51,7 +51,7 @@ namespace Domain.Services
                                 break;
                         }
                     }
-                    result.AppendLine(string.Format("\t{0} x {1} {2} = {3}", line.Quantity, line.Bike.Brand, line.Bike.Model, thisAmount.ToString("C")));
+                    result.AppendLine(string.Format("{0} x {1} {2} = {3}", line.Quantity, line.Bike.Brand, line.Bike.Model, thisAmount.ToString("C")));
                     totalAmount += thisAmount;
                 }
             }
