@@ -56,7 +56,7 @@
     <Compile Include="Line.cs">
       <DependentUpon>Model.tt</DependentUpon>
     </Compile>
-    <Compile Include="LineExtends.cs" />
+    <Compile Include="LineInstance.cs" />
     <Compile Include="Model.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

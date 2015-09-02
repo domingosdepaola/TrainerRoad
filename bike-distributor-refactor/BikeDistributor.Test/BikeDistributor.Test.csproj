@@ -35,11 +35,19 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ServiceModel" />
     <Reference Include="System.Xml" />
@@ -116,6 +124,10 @@
     <ProjectReference Include="..\infrastructure\Common\Infra.Common\Infra.Common.csproj">
       <Project>{6cf31e58-df1f-4f23-84a9-6b833698e21b}</Project>
       <Name>Infra.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Presentation\APIClient\APIClient.csproj">
+      <Project>{2de465fd-5c97-45f9-8792-e18577371a1b}</Project>
+      <Name>APIClient</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

@@ -1,0 +1,13 @@
+C:\projetos\git\TrainerRoad\bike-distributor-refactor\Presentation\APIClient\bin\Debug\APIClient.dll
+C:\projetos\git\TrainerRoad\bike-distributor-refactor\Presentation\APIClient\bin\Debug\APIClient.pdb
+C:\projetos\git\TrainerRoad\bike-distributor-refactor\Presentation\APIClient\bin\Debug\Domain.Entity.dll
+C:\projetos\git\TrainerRoad\bike-distributor-refactor\Presentation\APIClient\bin\Debug\Newtonsoft.Json.dll
+C:\projetos\git\TrainerRoad\bike-distributor-refactor\Presentation\APIClient\bin\Debug\EntityFramework.dll
+C:\projetos\git\TrainerRoad\bike-distributor-refactor\Presentation\APIClient\bin\Debug\Infra.Common.dll
+C:\projetos\git\TrainerRoad\bike-distributor-refactor\Presentation\APIClient\bin\Debug\Domain.Entity.pdb
+C:\projetos\git\TrainerRoad\bike-distributor-refactor\Presentation\APIClient\bin\Debug\Newtonsoft.Json.xml
+C:\projetos\git\TrainerRoad\bike-distributor-refactor\Presentation\APIClient\bin\Debug\EntityFramework.xml
+C:\projetos\git\TrainerRoad\bike-distributor-refactor\Presentation\APIClient\bin\Debug\Infra.Common.pdb
+C:\projetos\git\TrainerRoad\bike-distributor-refactor\Presentation\APIClient\obj\Debug\APIClient.csprojResolveAssemblyReference.cache
+C:\projetos\git\TrainerRoad\bike-distributor-refactor\Presentation\APIClient\obj\Debug\APIClient.dll
+C:\projetos\git\TrainerRoad\bike-distributor-refactor\Presentation\APIClient\obj\Debug\APIClient.pdb

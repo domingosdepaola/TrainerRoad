@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -15,7 +16,7 @@ namespace Domain.Entity
                 return .0725d;
             }
         }
-        public Order(String Company) 
+        public Order(String Company)
         {
             this.Company = Company;
         }
