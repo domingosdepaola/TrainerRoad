@@ -11,6 +11,7 @@ namespace APIClient
     //Created to call the API in a separated module
     public class OrderAPIClient
     {
+        static NLog.Logger log = NLog.LogManager.GetCurrentClassLogger();
         private readonly static string WebAPIUrl = "http://localhost/BikeDistributorWebAPI/api/";
         private static string OrderControllerUrl = WebAPIUrl + "Order/";
         private static string GenerateOrderWithReceptUrl = OrderControllerUrl + "GenerateOrderWithRecept";
@@ -42,7 +43,7 @@ namespace APIClient
             }
             catch (Exception ex)
             {
-                //log
+                log.Error(ex, ex.Message);
             }
             return result;
 

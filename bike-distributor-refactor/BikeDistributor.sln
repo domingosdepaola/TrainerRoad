@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeDistributor", "BikeDistributor\BikeDistributor.csproj", "{4FBA25B5-279C-4FD3-A904-FF88BEF4A480}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeDistributor.Test", "BikeDistributor.Test\BikeDistributor.Test.csproj", "{543D14A7-DC7A-4E49-9761-CA6B311DB0CC}"
@@ -34,7 +36,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeDistributorWCF", "Prese
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ScriptsDb", "ScriptsDb", "{AFF9BC7B-A7A9-4497-881C-DEAE2CD5E627}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\ScriptObjects.sql = ..\..\..\ScriptObjects.sql
+		..\ScriptObjects.sql = ..\ScriptObjects.sql
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIClient", "Presentation\APIClient\APIClient.csproj", "{2DE465FD-5C97-45F9-8792-E18577371A1B}"

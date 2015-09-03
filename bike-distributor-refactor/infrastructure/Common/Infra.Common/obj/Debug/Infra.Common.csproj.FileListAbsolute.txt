@@ -2,3 +2,7 @@ C:\projetos\git\TrainerRoad\bike-distributor-refactor\infrastructure\Common\Infr
 C:\projetos\git\TrainerRoad\bike-distributor-refactor\infrastructure\Common\Infra.Common\bin\Debug\Infra.Common.pdb
 C:\projetos\git\TrainerRoad\bike-distributor-refactor\infrastructure\Common\Infra.Common\obj\Debug\Infra.Common.dll
 C:\projetos\git\TrainerRoad\bike-distributor-refactor\infrastructure\Common\Infra.Common\obj\Debug\Infra.Common.pdb
+D:\Projetos\git\TravelRoad\bike-distributor-refactor\infrastructure\Common\Infra.Common\bin\Debug\Infra.Common.dll
+D:\Projetos\git\TravelRoad\bike-distributor-refactor\infrastructure\Common\Infra.Common\bin\Debug\Infra.Common.pdb
+D:\Projetos\git\TravelRoad\bike-distributor-refactor\infrastructure\Common\Infra.Common\obj\Debug\Infra.Common.dll
+D:\Projetos\git\TravelRoad\bike-distributor-refactor\infrastructure\Common\Infra.Common\obj\Debug\Infra.Common.pdb

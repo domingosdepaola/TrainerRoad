@@ -8,3 +8,7 @@ D:\Projetos\git\TrainerRoad\bike-distributor-refactor\BikeDistributor\bin\Debug\
 D:\Projetos\git\TrainerRoad\bike-distributor-refactor\BikeDistributor\obj\Debug\BikeDistributor.dll
 D:\Projetos\git\TrainerRoad\bike-distributor-refactor\BikeDistributor\obj\Debug\BikeDistributor.pdb
 D:\Projetos\git\TrainerRoad\bike-distributor-refactor\BikeDistributor\obj\Debug\BikeDistributor.csprojResolveAssemblyReference.cache
+D:\Projetos\git\TravelRoad\bike-distributor-refactor\BikeDistributor\bin\Debug\BikeDistributor.dll
+D:\Projetos\git\TravelRoad\bike-distributor-refactor\BikeDistributor\bin\Debug\BikeDistributor.pdb
+D:\Projetos\git\TravelRoad\bike-distributor-refactor\BikeDistributor\obj\Debug\BikeDistributor.dll
+D:\Projetos\git\TravelRoad\bike-distributor-refactor\BikeDistributor\obj\Debug\BikeDistributor.pdb
